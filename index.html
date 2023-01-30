@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css"  href="style.css">
+<title> Valid Credit Card </title>
+</head>
+
+<body> 
+  
+<div class="texto">
+  <h2>Valida tu Tarjeta</h2>
+
+
+  <form action="" method="POST">
+
+    <input type="text" class="form-control" id="tarjeta" placeholder="Ingrese Tarjeta" name="tarjeta"
+      onkeypress="return SoloNumeros(event);" required>
+    <input type="button" value="Validar Tarjeta" id="Boton">
+
+  </form>
+
+  <h1 id="demo"></h1>
+
+  <script src="index.js" type="module"> </script>
+
+ <p class="titulo" id="result"></p>   
+ <!-- class="prueba" -->
+
+  <script>
+    function SoloNumeros(evt) {
+      if (window.event) {
+        keynum = evt.keyCode;
+      }
+      else {
+        keynum = evt.which;
+      }
+
+      if ((keynum > 47 && keynum < 58) || keynum == 8 || keynum == 13) {
+        return true;
+      }
+      else {
+        alert("Porfavor Ingresar solo numeros");
+        return false;
+      }
+    }
+  </script>
+
+</div>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
