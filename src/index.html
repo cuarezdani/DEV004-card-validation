@@ -30,8 +30,8 @@
 
   <script>
     function SoloNumeros(evt) {
-      if (window.event) {
-        keynum = evt.keyCode;
+      if (window.event) {  //El resultado es que si existe un objeto "event" en el objeto "window", se ejecutará el código dentro de la estructura "if", de lo contrario no se ejecutará. Esta comprobación se utiliza para determinar si el navegador es compatible con el modelo de eventos antiguo (donde los eventos se almacenan en el objeto "window.event") o el modelo de eventos nuevo (donde los eventos se pasan como argumentos a los controladores de eventos
+        keynum = evt.keyCode; //evt" es un objeto que contiene información sobre un evento (por ejemplo, una pulsación de tecla), keyCode" es una propiedad del objeto "evt" que representa el código numérico de la tecla que se ha pulsado, keynum = evt.keyCode" es una asignación de variable que establece el valor de "keyCode" en el objeto "evt" en la variable "keynum
       }
       else {
         keynum = evt.which;
@@ -42,7 +42,7 @@
       }
       else {
         alert("Porfavor Ingresar solo numeros");
-        return false;
+        return (false);
       }
     }
   </script>

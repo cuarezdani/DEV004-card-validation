@@ -3,7 +3,6 @@ import validator from './validator.js';
 const Boton = document.getElementById("Boton")
 Boton.addEventListener("click", validate);
 
-
 function validate() {
   //console.log(validator);
   const cardNumber = document.getElementById("tarjeta").value;
@@ -18,6 +17,7 @@ function validate() {
 const validateButton = document.getElementById("Boton");
 const cardNumberInput = document.getElementById("tarjeta");
 const result = document.getElementById("result");
+
 
 validateButton.addEventListener("click", function () {
   const cardNumber = cardNumberInput.value;
