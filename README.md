@@ -14,7 +14,7 @@ Personas interesadas en la compra de productos Hechos en Resina Epoxica
 
 ## 2.Cuáles son los objetivos de estos usuarios en relación con tu producto
 
-Puedes ver a travez de imagenes diseños hechos con resina y a su vez comprar a traves de la pagina, ingresando su tarjeta de credito/debito  
+Comprar a traves de la pagina, ingresando su tarjeta de credito/debito  
 
 ## 3.Decisiones de diseño
 
